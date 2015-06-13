@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/linearLayout">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/chooser_1"
+            android:gravity="center"
+            android:background="#dfdfdf">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smiles"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/chooser_2"
+            android:gravity="center"
+            android:background="#dfdfdf">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nature"
+                android:id="@+id/textView4"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/chooser_3"
+            android:gravity="center"
+            android:background="#dfdfdf">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tech"
+                android:id="@+id/textView5"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/chooser_4"
+            android:gravity="center"
+            android:background="#dfdfdf">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transport"
+                android:id="@+id/textView6"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/chooser_5"
+            android:gravity="center"
+            android:background="#dfdfdf">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Various"
+                android:id="@+id/textView7"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/emoji_chooser_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="6dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:columnWidth="24dp"
+        android:verticalSpacing="6dp"
+        tools:listitem="@layout/emoji_entry"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:background="#FFF8F8F8" />
+
+</RelativeLayout>
