@@ -2,39 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/yannick/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/Users/yannick/AndroidStudioProjects/emoji-chooser/exampleapp/build/intermediates/exploded-aar/ch.halcyon/emojichooser/0.0.1/classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e8e92109b06241078d497b1725bdaaed0fff7572.jar" />
-    </item>
-    <item
-        jar="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/exploded-aar/emoji-chooser/emojichooser/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="20a6b3e1ffb50d3f977a04ab52ef5e8ce363f80d">
-        <dex dex="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/pre-dexed/debug/classes-9839884de8a7d2fda4870784ca1092357a5db457.jar" />
-    </item>
-    <item
-        jar="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/pre-dexed/debug/classes-c0f4d96602373ec283363136348443360f0009ae.jar" />
-    </item>
-    <item
-        jar="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-3a1d70dc16624fc37a78508eabc2c9d30f199dad.jar" />
-    </item>
-    <item
-        jar="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/yannick/AndroidStudioProjects/emoji-chooser/app/build/intermediates/pre-dexed/debug/classes-79694de8c78b25bac6e352fa62e1b452f80247ff.jar" />
+        revision="21.1.2"
+        sha1="816d133dec6012c1827dae3adb3f70f406cd9195">
+        <dex dex="/Users/yannick/AndroidStudioProjects/emoji-chooser/exampleapp/build/intermediates/pre-dexed/debug/classes-4ecb4df8ef7d401b851beb692032a93a462e9336.jar" />
     </item>
 
 </items>

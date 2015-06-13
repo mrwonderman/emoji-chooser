@@ -1,4 +1,4 @@
-package ch.haclyon.emojichooser;
+package ch.halcyon.emojichooser;
 
 import android.content.Context;
 import android.graphics.Color;
